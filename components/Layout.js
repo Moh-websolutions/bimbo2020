@@ -14,7 +14,7 @@ import Features from './Features';
 class Layout extends React.Component {
  
 
-    componentDidMount() {
+    componentDidUpdate() {
 
 
     function mainSlider() {
@@ -62,6 +62,7 @@ class Layout extends React.Component {
         ]
       });
 
+
       function doAnimations(elements) {
         var animationEndEvents = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
         elements.each(function () {
@@ -79,7 +80,9 @@ class Layout extends React.Component {
       }
     }
     mainSlider();
+};
 
+    componentDidMount() {    
 
         AOS.init();
          
@@ -163,7 +166,7 @@ class Layout extends React.Component {
                 </Head>
                 <div>
                     <Header/>
-                    <main>     
+                    <main data-aos="fade-in" data-aos-duration="1500">    
                     {this.props.children}
                     </main>
                     <Features/>
