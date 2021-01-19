@@ -1,0 +1,64 @@
+{
+	"meta-title": "Garderie Bimbo Daycare Inc.",
+	"meta-description": "Garderie Bimbo Daycare Inc. à Bathurst, Nouveau-Brunswick offre des services de garde, préscolaires et après l'école de qualité aux enfants de la naissance à 12 ans dans un environnement chaleureux et accueillant.",
+	"home": "Accueil",
+	"about": "À propos",
+	"history": "L'histoire",
+	"services": "Services",
+	"staff": "Personnel",
+	"our-facility": "Notre installation",
+	"gallery": "Galerie",
+	"programs": "Programmes",
+	"contact": "Contact",
+	"language": "Langue",
+	"our-services-programs": "Nos services / programmes",
+	"readmore": "Lire la suite",
+	"view-services": "Voir les services",
+	"quick-links": "Liens rapides",
+	"other-links": "Autres-liens",
+	"contact-us-now": "Nous contacter",
+	"cta-title": "Dites bonjour à la garderie Bimbo.",
+
+	"footer-text": "Nous nous engageons envers les familles que nous servons. Nous combinons des activités éducatives, se faire de nouveaux amis, jouer en plein air et plus encore, pour aider chaque enfant à développer ses compétences pour la vie.",
+
+	"slider-title": ["Bienvenue à la Garderie","Garderie Bimbo Inc."],
+	"slider-subtitle": "Nous croyons qu'il est important de fournir un environnement dans lequel chaque enfant se sent en sécurité lorsqu'il n'est pas à la maison.",
+
+	"feature-hero-title": "Certaines des meilleures fonctionnalités de Bimbo",
+	"feature-title-1": "Environnement sécurisé",
+	"feature-title-2": "Personnel certifié et entièrement formé",
+	"feature-title-3": "Partenariat avec les parents",
+	"feature-title-4": "Jeux en plein air et plus",
+
+	"about-s1-p1": "ADS Machine Shop Inc. est une entreprise d’usinage située à Allardville, N.-B. L’entreprise se démarque en raison de la qualité de ses produits et services, mais aussi grâce à la compétence de ses employés. Le service est disponible 24h/24.",
+	"about-s1-p2": "ADS Machine Shop Inc. offre de nombreux services, dont l’usinage conventionnel, usinage numérique (CNC), soudage, fabrication, découpage au plasma CNC et la réparation et conception de cylindres hydrauliques. Nous offrons aussi un service de soudure et d’usinage mobile.",
+	"about-s1-p3": "Nous travaillons en étroite collaboration avec nos clients, afin de nous assurer qu’ils reçoivent un service personnalisé et répondre à leurs attentes.",
+
+	"about-s2-title": "Experts en usinage dans le nord du Nouveau-Brunswick",
+	"about-s2-p1": ["Vous cherchez un atelier d'usinage à Bathurst? Ne cherchez pas plus loin que ADS Machine Shop, votre solution numéro un pour tous vos besoins d'usinage.", "Que vous ayez besoin d'usinage conventionnel, d'usinage numérique (CNC), de soudage, de découpe plasma CNC ou de réparation et conception de vérins hydrauliques, notre équipe d'experts est là pour vous aider."],
+	"about-s2-p2": "Nous offrons également un service mobile de soudage et d'usinage disponible 24/7 si jamais une catastrophe survient en dehors de nos heures d'ouverture normales.",
+	"about-s2-p3": "Au fil de nos nombreuses années d'expérience, nous avons bâti notre réputation d'excellence grâce à notre service personnalisé et des résultats rapides.",
+	"about-s2-p4": "Nous travaillons toujours en étroite collaboration avec nos clients pour nous assurer que le résultat final dépasse vos attentes.",
+	"about-s2-p5": "N'hésitez pas à nous contacter pour tous vos besoins d'usinage. Notre équipe dévouée et hautement qualifiée n'est qu'à un appel ou à un courriel!",
+	
+	"our-gallery": "Notre galerie",
+	"gallery-title": "Découvrez ADS Machine Shop Inc.",
+	
+	"services-title": "Pour tous vos besoins d'usinage",	
+	"conventional-machining": "Usinage conventionnel",
+	"digital-machining": "Usinage numérique (CNC)",
+	"welding": "Soudage",
+	"manufacturing": "Fabrication",
+	"CNC": "Découpage au plasma (CNC)",
+	"hydraulic-cylinders": "Réparation et conception de cylindres hydrauliques",
+	"welding-mobile-machining": "Soudure et d’usinage mobile",
+
+	"get-in-touch": "Entrer en contact",
+	"contact-info": "Informations de contact",	
+	"enter-message": "Entrer message",
+	"enter-name": "Entrez le nom",
+	"enter-subject": "Entrer sujet",
+	"email": "Email",
+	"send": "Envoyer"
+
+}

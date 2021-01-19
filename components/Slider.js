@@ -1,6 +1,13 @@
-import Link from 'next/link'
-        
+import Link from 'next/link';
+import useTranslation from 'next-translate/useTranslation';
+import { useRouter} from 'next/router';
+
+
 const Slider = () => {
+
+    let router = useRouter();
+    let { t } = useTranslation()
+
     return (
 
         <div className="slider-area">
@@ -13,15 +20,15 @@ const Slider = () => {
                         <div className="row d-flex align-items-center">
                             <div className="col-lg-12">
                                 <div className="hero__caption">
-                                    <h1 data-animation="fadeInUp" data-delay=".6s">Welcome to Garderie <br/>Bimbo Daycare Inc.</h1>
-                                    <p data-animation="fadeInUp" data-delay=".8s">We believe it is important to provide an environment where every child feels safe and secure while they're away from home.</p>
+                                    <h1 data-animation="fadeInUp" data-delay=".6s">{t('common:slider-title.0')} <br/>{t('common:slider-title.1')}</h1>
+                                    <p data-animation="fadeInUp" data-delay=".8s">{t('common:slider-subtitle')}</p>
                                 </div>
                             </div>
 
                             <div className="col-lg-12">
                                 <div className="hero__caption">
                                    <div className="slider-btns">
-                                        <Link href="/contact" ><a data-animation="fadeInLeft" data-delay="1.0s" className="btn radius-btn">Contact us</a></Link>
+                                        <Link href="/contact" ><a data-animation="fadeInLeft" data-delay="1.0s" className="btn radius-btn">{t('common:contact-us-now')}</a></Link>
                                         <Link href="/gallery"><a data-animation="fadeInRight" data-delay="1.0s" className="popup-video video-btn ani-btn">
                                         <i className="fas fa-images"></i></a></Link>
                                    </div>

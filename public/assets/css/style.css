@@ -34,7 +34,7 @@
 }
 
 html, body {
-	overflow-x: hidden;
+  overflow-x: hidden;
 }
 
 body {
@@ -66,7 +66,7 @@ p {
     font-weight: normal;
 }
 main {
-	overflow: hidden;
+  overflow: hidden;
 }
 
 .f-left {
@@ -168,7 +168,7 @@ hr {
     z-index: 99;
 }
 .logo {
-	padding: 9px 0;
+  padding: 9px 0;
 }
 .main-header {
     z-index: 3;
@@ -183,36 +183,36 @@ hr {
 .main-header .main-menu ul li > a {
     color: #212121;
     font-weight: 400;
-	padding: 39px 6px;
-	display: block;
-	font-size: 15px;
-	-webkit-transition: 0.3s;
-	-moz-transition: 0.3s;
-	-o-transition: 0.3s;
-	transition: 0.3s;
-	text-transform: normal;
-	letter-spacing: 1px;
+  padding: 39px 6px;
+  display: block;
+  font-size: 15px;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+  text-transform: normal;
+  letter-spacing: 1px;
 }
 
 .main-header .main-menu ul li:first-child a{
-	color: var(--green);
+  color: var(--green);
 }
 .main-header .main-menu ul li:nth-child(2) a{
-	color: var(--red);
+  color: var(--red);
 }
 .main-header .main-menu ul li:nth-child(3) a{
-	color: var(--orange);
+  color: var(--orange);
 }
 .main-header .main-menu ul li:nth-child(4) a{
-	color: var(--yellow);
+  color: var(--yellow);
 }
 .main-header .main-menu ul li:nth-child(5) a{
-	color: var(--blue);
+  color: var(--blue);
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
     .main-header .main-menu ul li > a {
-        padding: 39px 15px;
+        padding: 39px 6px;
     }
 }
 .main-header .main-menu ul li > a::before {
@@ -387,7 +387,7 @@ hr {
     z-index: -1;
 }
 .btn:hover{
-	color: #fff
+  color: #fff
 }
 .header-btn {
     background: #4043bc;
@@ -574,7 +574,7 @@ hr {
     margin-left: 16px;
 }
 .slider-area .hero__caption .slider-btns a.video-btn:hover.ani-btn {
-	color: #fff;
+  color: #fff;
     animation: 1.3s cubic-bezier(0.8, 0, 0, 1) 0s normal none infinite running pulse;
     box-shadow: 0 0 0 0 rgba(61, 1, 68, 0.302);
     -webkit-animation: 1.3s cubic-bezier(217, 70, 233, 1) 0s normal none infinite running pulse;
@@ -807,9 +807,21 @@ hr {
 }
 
 .quality__col:nth-child(6) .quality__icon {
+  top: -84px;
+  left: -63px;
+  width: 230px;
+}
+
+.quality__col:nth-child(7) .quality__icon {
   top: 0;
-    left: -63px;
-    width: 230px;
+  left: -103px;
+  width: 300px;
+}
+
+.quality__col:nth-child(8) .quality__icon {
+  top: 0;
+  left: -63px;
+  width: 230px;
 }
 
 .quality__item {
@@ -821,7 +833,7 @@ hr {
 .quality__category {
   margin-bottom: 24px;
   font-family: 'DM Sans', sans-serif;
-  font-size: 24px;
+  font-size: 30px;
   font-weight: 500;
 }
 
@@ -875,16 +887,16 @@ hr {
     display: flex;
 }
 .best-features-area .single-features:first-child .features-icon span {
-	background: var(--orange);
+  background: var(--orange);
 }
 .best-features-area .single-features:nth-child(2) .features-icon span {
-	background: var(--red);
+  background: var(--red);
 }
 .best-features-area .single-features:nth-child(3) .features-icon span {
-	background: var(--green);
+  background: var(--green);
 }
 .best-features-area .single-features:nth-child(4) .features-icon span {
-	background: var(--blue);
+  background: var(--blue);
 }
 .best-features-area .single-features .features-icon span {
     position: relative;
@@ -947,6 +959,7 @@ hr {
     position: absolute;
     right: 0;
     bottom: 0;
+    width: 700px;
 }
 
  /*----------------------------------------*/

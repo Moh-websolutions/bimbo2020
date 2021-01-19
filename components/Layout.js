@@ -14,7 +14,7 @@ import Features from './Features';
 class Layout extends React.Component {
  
 
-    componentDidUpdate() {
+    componentDidMount() {
 
 
     function mainSlider() {
@@ -85,7 +85,7 @@ class Layout extends React.Component {
     componentDidMount() {    
 
         AOS.init();
-         
+                  
         const menu = $('ul#navigation');
         if(menu.length){
           setTimeout(() => $('ul#navigation').slicknav({
@@ -165,6 +165,7 @@ class Layout extends React.Component {
 
                 </Head>
                 <div>
+
                     <Header/>
                     <main data-aos="fade-in" data-aos-duration="1500">    
                     {this.props.children}
