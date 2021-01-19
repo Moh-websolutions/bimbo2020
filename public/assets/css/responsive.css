@@ -31,6 +31,10 @@
 }
  
 @media (max-width: 767px) {
+    .footer-padding {
+        padding-top: 80px;
+        padding-bottom: 50px;
+    }
 	.footer-area .footer-tittle h4 {
         margin-bottom: 20px
     }
