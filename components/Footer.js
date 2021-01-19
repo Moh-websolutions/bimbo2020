@@ -19,7 +19,7 @@ const Footer = ({props}) => {
                         <div className="col-lg-5 col-sm-8">
                              <div className="single-footer-caption mb-30">
                                   <div className="footer-logo">
-                                     <Link href="/"><a><Image src="/assets/img/logo.svg" width={250} height={108} alt={t('common:meta-title')} /></a></Link>
+                                     <Link href="/"><a><span class="tooltip hidden">{t('common:meta-title')}</span><Image src="/assets/img/logo.svg" width={250} height={108} alt={t('common:meta-title')} /></a></Link>
                                  </div>
                                  <div className="footer-tittle">
                                      <div className="footer-pera">
@@ -62,8 +62,8 @@ const Footer = ({props}) => {
                             <div className="footer-copy-right">
                                <p> 
                                 Copyright &copy;  {today.getFullYear()} {t('common:copy-right')} <Link href="https://www.websolutions.ca/"><a target="_blank" rel="noopener">
-                                <Image src="/assets/img/websolutions.svg" width={150} height={28} alt="Websolutions.ca" /></a></Link>
-                                     </p>
+                                <span class="tooltip hidden">Websolutions.ca</span><Image src="/assets/img/websolutions.svg" width={150} height={28} alt="Websolutions.ca" /></a></Link>
+                                  </p>
                             </div>
                         </div>
                     </div>
