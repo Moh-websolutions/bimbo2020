@@ -30,7 +30,7 @@ const Slider = () => {
                                    <div className="slider-btns">
                                         <Link href="/contact" ><a data-animation="fadeInLeft" data-delay="1.0s" className="btn radius-btn">{t('common:contact-us-now')}</a></Link>
                                         <Link href="/gallery"><a data-animation="fadeInRight" data-delay="1.0s" className="popup-video video-btn ani-btn">
-                                        <i className="fas fa-images"></i></a></Link>
+                                        <span class="tooltip hidden">Open Gallery</span><i className="fas fa-images"></i></a></Link>
                                    </div>
                                 </div>
                             </div> 
