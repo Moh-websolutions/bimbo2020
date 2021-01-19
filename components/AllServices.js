@@ -74,7 +74,7 @@ const services = [
     {
     id: "7",    
     title: "Located at the college",
-    titlefr: "Curriculum français",
+    titlefr: "Situe au Collège",
     description:"",
     descriptionfr:"",
     image:"/assets/img/hero/college.png",
@@ -85,6 +85,7 @@ const services = [
     {    
     id:"8", 
     title: "Let's Get in Touch",
+    titlefr: "Entrons en contact",
     description:"For more information about our daycare or preschool services contact us today, and feel free to call us at 506-548-8069 today!",
     descriptionfr: "Pour plus d'informations sur nos services de garde ou préscolaires, contactez-nous dès aujourd'hui et n'hésitez pas à nous appeler au 506-548-8069 dès aujourd'hui!",
     image:"/assets/img/hero/phone.png",

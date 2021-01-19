@@ -757,7 +757,7 @@ hr {
   -ms-flex: 0 0 50%;
   flex: 0 0 50%;
   width: 50%;
-  min-height: 500px;
+  min-height: 450px;
   height: auto;
   padding-top: 5px;
   border-bottom: 1px solid #E3E6E9;
@@ -832,6 +832,7 @@ hr {
 
 .quality__category {
   margin-bottom: 24px;
+  line-height: normal;
   font-family: 'DM Sans', sans-serif;
   font-size: 30px;
   font-weight: 500;
@@ -1082,7 +1083,7 @@ li.single-listing-gallery:before {
   object-fit: cover;
   position: relative;
   top: 50%;
-  transform: translateY(-50%);
+/*  transform: translateY(-50%);*/
 }
 
 .single-listing-gallery a {

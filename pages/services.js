@@ -1,40 +1,46 @@
-import Head from "next/head"
-import Link from 'next/link'
-import Layout from '../components/Layout'
+import PropTypes from 'prop-types';
+import Head from 'next/head';
+import Image from 'next/image';
+import Link from 'next/link';
+import useTranslation from 'next-translate/useTranslation';
+import { useRouter} from 'next/router';
+import Layout from '../components/Layout';
 import AllServices from '../components/AllServices'
 
-const Services = () => {
+const Services = ({props}) => {
+    
+    let { t } = useTranslation()
+    let router = useRouter();
+
 	return (
-	<Layout>
-		<Head>
-            <title>Services</title>
-            <meta name="description" content="Elements Page" />
-        </Head>
-        <section className="section-padding sub-page mt-5">
-	        <div className="container">
-	            <div className="row justify-content-center">
-	                <div className="col-lg-12">
- 	                    <div className="row">
-	                        <div className="col-12 col-lg-10 offset-lg-1">
-	                            <div className="section-tittle text-center">
-	                              <h2>Our Services / Programs</h2>
-	                              <p>At Garderie Bimbo Daycare Inc., your child will feel comfortable and relaxed while under our supervision. We believe it is important to provide an environment where every child feels safe and secure while they're away from home. A child is more likely to flourish when they feel that all is well in their world.</p>
-	                              <p>The certified and fully trained staff at Garderie Bimbo Daycare serve as authority figures who will gently guide and instruct your child through each daily event, providing encouragement and support. </p>
-	                              <h4>When in our care your child will be provided with:</h4>
-	                            </div>
-	                        </div>
-	                    </div>
+		<Layout>
+			<Head>
+				<title>{t('common:services')} | {t('common:meta-title')}</title>
+                <meta name="description" content={t('common:meta-description')} />
+	        </Head>
+	        <section className="section-padding sub-page mt-5">
+		        <div className="container">
+		            <div className="row justify-content-center">
+		                <div className="col-lg-12">
+	 	                    <div className="row">
+		                        <div className="col-12 col-lg-10 offset-lg-1">
+		                            <div className="section-tittle text-center">
+		                              <h2>{t('common:services-hero-title')}</h2>
+		                              <p>{t('common:services-text-1')}</p>
+		                              <h4>{t('common:services-text-2.0')}</h4><h4 className="color-red">{t('common:services-text-2.1')}</h4>
+		                              <br/><h3 className="color-orange">{t('common:services-text-3')} </h3>
+		                            </div>
+		                        </div>
+		                    </div>
 
-	                   
-	                </div>
-	            </div>
-	        </div>
-	        <AllServices />
-	    </section>
-	     
-
-	</ Layout>
-  )
+		                   
+		                </div>
+		            </div>
+		        </div>
+		        <AllServices />
+		    </section>
+		</ Layout>
+    )
 }
 
 

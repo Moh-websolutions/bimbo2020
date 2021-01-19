@@ -43,25 +43,27 @@
 	"about-s2-p4": "We always work very closely with our clients to ensure that the end result exceeds your expectations.",
 	"about-s2-p5": "Don’t hesitate to contact us for all of your machining needs. Our devoted and highly-qualified team is just a call or email away!",
 
-	"our-gallery": "Our Gallery",
-	"gallery-title": "Discover ADS Machine Shop Inc.",
+	"gallery-hero-title": "Discover Bimbo Daycare",
+	"gallery-text": "Our Bathurst location provide an environment where every child feels safe and secure while they're away from home. A child is more likely to flourish when they feel that all is well in their world.",
 
-	"services-title": "For all of your machining needs",
-	"conventional-machining": "Conventional Machining",
-	"digital-machining": "Digital Machining (CNC)",
-	"welding": "Welding",
-	"manufacturing": "Manufacturing",
-	"CNC": "CNC Plasma Cutting",
-	"hydraulic-cylinders": "Hydraulic Cylinders",
-	"welding-mobile-machining": "Welding / Mobile Machining",
+	"services-hero-title": "Our Services / Programs",
+	"services-text-1": "At Garderie Bimbo Daycare Inc., your child will feel comfortable and relaxed while under our supervision. We believe it is important to provide an environment where every child feels safe and secure while they're away from home. A child is more likely to flourish when they feel that all is well in their world.",
+	"services-text-2": ["Open Monday to Friday 7 :00am – 5:30pm ", "(Due to covid19 our reduced hours are from 7:30am – 4:30pm)"],
+	"services-text-3": "Services Offered:",
 
-	"get-in-touch": "Get In Touch",
-	"contact-info": "Contact Info",
+
+	"contact-hero-title":"Contact Us",
+	"contact-text":"If you have any questions about any of our childcare services or would like to schedule a time to take a tour of our facility, feel free to fill out the information below and someone will get in contact with you as soon as possible.",
+	"hours-of-operation": "Hours of operation",
+	"email-us": "Email Us",
 	"enter-message": "Enter Message",
 	"enter-name": "Enter Name",
 	"enter-subject": "Entrer Subject",
-	"email": "Email",
-	"send": "Send"
-
-
+	"enter-email": "Enter Email",
+	"send": "Send Message",
+	"send": "Monday",
+	"send": "Tuesday",
+	"send": "Wednesday",
+	"send": "Thursday",
+	"send": "Friday"
 }

@@ -42,24 +42,28 @@
 	"about-s2-p4": "Nous travaillons toujours en étroite collaboration avec nos clients pour nous assurer que le résultat final dépasse vos attentes.",
 	"about-s2-p5": "N'hésitez pas à nous contacter pour tous vos besoins d'usinage. Notre équipe dévouée et hautement qualifiée n'est qu'à un appel ou à un courriel!",
 	
-	"our-gallery": "Notre galerie",
-	"gallery-title": "Découvrez ADS Machine Shop Inc.",
+	"gallery-hero-title": "Découvrez la garderie Bimbo",
+	"gallery-text": "Notre emplacement à Bathurst offre un environnement où chaque enfant se sent en sécurité lorsqu'il n'est pas à la maison. Un enfant a plus de chances de s'épanouir lorsqu'il sent que tout va bien dans son monde.",
 	
-	"services-title": "Pour tous vos besoins d'usinage",	
-	"conventional-machining": "Usinage conventionnel",
-	"digital-machining": "Usinage numérique (CNC)",
-	"welding": "Soudage",
-	"manufacturing": "Fabrication",
-	"CNC": "Découpage au plasma (CNC)",
-	"hydraulic-cylinders": "Réparation et conception de cylindres hydrauliques",
-	"welding-mobile-machining": "Soudure et d’usinage mobile",
+	"services-hero-title": "Nos services / programmes",
+	"services-text-1": "À la Garderie Bimbo Daycare Inc., votre enfant se sentira à l'aise et détendu sous notre supervision. Nous croyons qu'il est important de fournir un environnement dans lequel chaque enfant se sent en sécurité lorsqu'il n'est pas à la maison. Un enfant a plus de chances de s'épanouir lorsqu'il sent que tout va bien dans son monde.",
+	"services-text-2": ["Ouvert du Lundi au Vendredi 07h00-17h30", "(En raison de covid19 nos heures réduites sont de 7h30 - 16h30)"],
+	"services-text-3": "Services offerts :",
 
-	"get-in-touch": "Entrer en contact",
-	"contact-info": "Informations de contact",	
+
+	"contact-hero-title":"Nous contacter",
+	"contact-text":"Si vous avez des questions sur l'un de nos services de garde d'enfants ou si vous souhaitez planifier un moment pour visiter notre établissement, n'hésitez pas à remplir les informations ci-dessous et quelqu'un vous contactera dès que possible.",
+	"hours-of-operation": "Heures d'ouverture",
+	"email-us": "Envoyez-nous un email",
 	"enter-message": "Entrer message",
 	"enter-name": "Entrez le nom",
 	"enter-subject": "Entrer sujet",
-	"email": "Email",
-	"send": "Envoyer"
+	"enter-email": "Entrer email",
+	"send": "Envoyer le message",
+	"monday": "Lundi",
+	"tuesday": "Mardi",
+	"wednesday": "Mercredi",
+	"thursday": "Jeudi",
+	"friday": "Vendredi"
 
 }
