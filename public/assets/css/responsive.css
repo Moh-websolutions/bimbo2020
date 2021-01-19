@@ -31,7 +31,10 @@
 }
  
 @media (max-width: 767px) {
-	.ball {
+	.footer-area .footer-tittle h4 {
+        margin-bottom: 20px
+    }
+    .ball {
 		display: none
 	}
   	.quality__col {

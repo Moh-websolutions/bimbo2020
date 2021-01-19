@@ -30,7 +30,7 @@ const Footer = ({props}) => {
                         </div>
                         <div className="col-lg-2 col-md-4 col-sm-5">
                             <div className="single-footer-caption mb-50">
-                                <div className="footer-tittle">
+                                <div className="footer-tittle mt-4">
                                     <h4>{t('common:quick-links')}</h4>
                                     <ul>
                                         <li><Link href="/about"><a>{t('common:about')}</a></Link></li>
@@ -44,7 +44,7 @@ const Footer = ({props}) => {
                         </div>
                         <div className="col-lg-2 col-md-4 col-sm-7">
                             <div className="single-footer-caption mb-50">
-                                <div className="footer-tittle">
+                                <div className="footer-tittle mt-4">
                                     <h4>{t('common:other-links')}</h4>
                                     <ul>
                                         <li><Link href={router.asPath} locale="en"><a>English</a></Link></li>
