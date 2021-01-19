@@ -61,7 +61,8 @@ const Footer = ({props}) => {
                         <div className="col-xl-12 ">
                             <div className="footer-copy-right">
                                <p> 
-                                Copyright &copy;  {today.getFullYear()} {t('common:copy-right')} <Link href="https://www.websolutions.ca/"><a target="_blank" rel="noopener"><img src="/assets/img/websolutions.svg" width="150" alt="Websolutions.ca" /></a></Link>
+                                Copyright &copy;  {today.getFullYear()} {t('common:copy-right')} <Link href="https://www.websolutions.ca/"><a target="_blank" rel="noopener">
+                                <Image src="/assets/img/websolutions.svg" width={150} height={28} alt="Websolutions.ca" /></a></Link>
                                      </p>
                             </div>
                         </div>

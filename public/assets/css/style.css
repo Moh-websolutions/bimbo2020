@@ -1301,6 +1301,8 @@ table tr th {
 }
 .footer-area .footer-copy-right p a {
     color: #27aae1;
+    position: absolute;
+    margin-left: 7px;
 }
 .footer-area .footer-copy-right p a:hover {
     color: #27aae1;

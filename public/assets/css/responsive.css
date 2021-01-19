@@ -60,6 +60,16 @@
         padding-left: 19px;
         margin: 12px 0 12px 0;
     }
+    .footer-area .footer-copy-right p a {
+    color: #27aae1;
+    position: relative;
+    margin-left: 0;
+    margin-top: 10px;
+    }
+    .footer-area .footer-copy-right {
+    padding-top: 20px;
+    text-align: center;
+    }
      
  }
 @media only screen and (min-width: 480px) and (max-width: 767px) {
