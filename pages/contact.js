@@ -102,24 +102,27 @@ const Contact = ({props}) => {
                                  <table>
                                       <tbody>
                                       <tr>
-                                          <th>Monday</th>
-                                          <td>7:00 a.m. - 5:30 p.m.</td>
+                                          <th>{t('common:monday')}</th>
+                                          <td>{t('common:open-hours')}</td>
                                       </tr>
                                       <tr>
-                                          <th>Tuesday</th>
-                                          <td>7:00 a.m. - 5:30 p.m.</td>
+                                          <th>{t('common:tuesday')}</th>
+                                          <td>{t('common:open-hours')}</td>
                                       </tr>
                                       <tr>
-                                          <th>Wednesday</th>
-                                          <td>7:00 a.m. - 5:30 p.m.</td>
+                                          <th>{t('common:wednesday')}</th>
+                                          <td>{t('common:open-hours')}</td>
                                       </tr>
                                       <tr>
-                                          <th>Thursday</th>
-                                          <td>7:00 a.m. - 5:30 p.m.</td>
+                                          <th>{t('common:thursday')}</th>
+                                          <td>{t('common:open-hours')}</td>
                                       </tr>
                                       <tr>
-                                          <th>Friday</th>
-                                          <td>7:00 a.m. - 5:30 p.m.</td>
+                                          <th>{t('common:friday')}</th>
+                                          <td>{t('common:open-hours')}</td>
+                                      </tr>
+                                      <tr>
+                                           <td colspan="2" className="color-red"><i>{t('common:covid-opening-hours')}</i></td>
                                       </tr>
                                       </tbody>
                                   </table>

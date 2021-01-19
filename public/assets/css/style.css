@@ -970,7 +970,10 @@ hr {
   margin-top: 35px
 }
 .facility img {
-  margin-bottom: 35px
+  margin-bottom: 35px!important
+}
+.facility.responsive-imgs img {
+  width: 1200PX!important
 }
  /*----------------------------------------*/
 /*  STAFF

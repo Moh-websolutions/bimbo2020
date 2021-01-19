@@ -18,6 +18,7 @@
 	"other-links": "Autres-liens",
 	"contact-us-now": "Nous contacter",
 	"cta-title": "Dites bonjour à la garderie Bimbo.",
+	"more-photos": "Plus de photos",
 
 	"footer-text": "Nous nous engageons envers les familles que nous servons. Nous combinons des activités éducatives, se faire de nouveaux amis, jouer en plein air et plus encore, pour aider chaque enfant à développer ses compétences pour la vie.",
 	"copy-right": "tous droits réservés par",
@@ -31,17 +32,15 @@
 	"feature-title-3": "Partenariat avec les parents",
 	"feature-title-4": "Jeux en plein air et plus",
 
-	"about-s1-p1": "ADS Machine Shop Inc. est une entreprise d’usinage située à Allardville, N.-B. L’entreprise se démarque en raison de la qualité de ses produits et services, mais aussi grâce à la compétence de ses employés. Le service est disponible 24h/24.",
-	"about-s1-p2": "ADS Machine Shop Inc. offre de nombreux services, dont l’usinage conventionnel, usinage numérique (CNC), soudage, fabrication, découpage au plasma CNC et la réparation et conception de cylindres hydrauliques. Nous offrons aussi un service de soudure et d’usinage mobile.",
-	"about-s1-p3": "Nous travaillons en étroite collaboration avec nos clients, afin de nous assurer qu’ils reçoivent un service personnalisé et répondre à leurs attentes.",
+	"about-hero-title": "Notre histoire",
+	"about-text-1": ["Garderie Bimbo Daycare Inc. Est une garderie à but non lucratif qui a ouvert en 1975, nous offrons des services de garderie de qualité, des programmes préscolaires ainsi que des services de halte scolaire aux familles de la région chaleur. Offrir un environnement pour les enfants âgés de la naissance à l’âge de douze ans à apprendre ", "Nos éducatrices ont plusieurs années expérience et répondent à toutes les exigences des normes provinciales de garderies. Nous croyons que chaque enfant est unique et nous visons de répondre aux besoins de chaque enfant, parent et de notre communauté."],
 
-	"about-s2-title": "Experts en usinage dans le nord du Nouveau-Brunswick",
-	"about-s2-p1": ["Vous cherchez un atelier d'usinage à Bathurst? Ne cherchez pas plus loin que ADS Machine Shop, votre solution numéro un pour tous vos besoins d'usinage.", "Que vous ayez besoin d'usinage conventionnel, d'usinage numérique (CNC), de soudage, de découpe plasma CNC ou de réparation et conception de vérins hydrauliques, notre équipe d'experts est là pour vous aider."],
-	"about-s2-p2": "Nous offrons également un service mobile de soudage et d'usinage disponible 24/7 si jamais une catastrophe survient en dehors de nos heures d'ouverture normales.",
-	"about-s2-p3": "Au fil de nos nombreuses années d'expérience, nous avons bâti notre réputation d'excellence grâce à notre service personnalisé et des résultats rapides.",
-	"about-s2-p4": "Nous travaillons toujours en étroite collaboration avec nos clients pour nous assurer que le résultat final dépasse vos attentes.",
-	"about-s2-p5": "N'hésitez pas à nous contacter pour tous vos besoins d'usinage. Notre équipe dévouée et hautement qualifiée n'est qu'à un appel ou à un courriel!",
-	
+	"facility-hero-title": "Notre installation",
+	"facility-text-1": ["Les programmes de la garderie visent à offrir à votre enfant un milieu stimulant ou il pourrait s’amuser et découvrir, tout en étant en sécurité. Les programmes sont créés pour aider les enfants à se développer physiquement, intellectuellement et socialement. ", "Nous savons qu’avec le jeu, l’enfant peut apprendre et être préparés pour la prochaine étape, la maternelle."],
+
+	"staff-hero-title":"Notre personnel clé",
+	"staff-text": "Le personnel certifié et entièrement formé de la Garderie Bimbo Daycare fait office de figures d'autorité qui guideront et instruiront doucement votre enfant à travers chaque événement quotidien, en fournissant l'encouragement et le soutien.",
+
 	"gallery-hero-title": "Découvrez la garderie Bimbo",
 	"gallery-text": "Notre emplacement à Bathurst offre un environnement où chaque enfant se sent en sécurité lorsqu'il n'est pas à la maison. Un enfant a plus de chances de s'épanouir lorsqu'il sent que tout va bien dans son monde.",
 	
@@ -64,6 +63,8 @@
 	"tuesday": "Mardi",
 	"wednesday": "Mercredi",
 	"thursday": "Jeudi",
-	"friday": "Vendredi"
+	"friday": "Vendredi",
+	"open-hours": "7 h 00 à 17 h 30",
+	"covid-opening-hours": "En raison de covid19 nos heures réduites sont de 7h30 - 16h30"
 
 }

@@ -48,14 +48,11 @@ const Footer = ({props}) => {
                                 <div className="footer-tittle">
                                     <h4>{t('common:other-links')}</h4>
                                     <ul>
-
                                         <li><Link href={router.asPath} locale="en"><a>English</a></Link></li>
                                         <li><Link href={router.asPath} locale="fr"><a>Français</a></Link></li>
                                         <li><Link href="/about"><a>{t('common:programs')}</a></Link></li>
                                         <li><Link href="/services"><a>{t('common:services')}</a></Link></li>
-                                        <li><Link href="/gallery"><a>{t('common:gallery')}</a></Link></li>
-                                        <li><Link href="/contact"><a>{t('common:contact-info')}</a></Link></li>
-                                
+                                        <li><Link href="/gallery"><a>{t('common:gallery')}</a></Link></li>                                
                                      </ul>
                                 </div>
                             </div>
