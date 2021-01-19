@@ -7,12 +7,9 @@ import Link from 'next/link';
 //import $ from 'jquery';
 //import Bootstrap from 'react-bootstrap';
 import AOS from "aos";
-import Header from './Header';
-import Footer from './Footer';
-import Cta from './Cta';
-import Features from './Features';
 
-class Layout extends React.Component {
+
+class Mainintro extends React.Component {
  
   componentDidMount() {
 
@@ -94,30 +91,6 @@ class Layout extends React.Component {
           }), 100);
      
         };
-
-        // activeLink
-        $(function(){
-            $('nav a').filter(function() {
-                return this.href==location.href
-            })
-           .parent().addClass('active').siblings().removeClass('active')
-
-            $('nav a').click(function(){
-            $(this).parent().addClass('active').siblings().removeClass('active')
-         })
-        });
-
-        // preloading
-        $('#preloader-active').delay(550).fadeOut('slow');
-        $('body').delay(250).css({
-            'overflow': 'visible',
-        })  
-
-        //Gallery
-        $(function () {
-            $("#animated-thumbnials").lightGallery({thumbnail:true});
-        });
-
     }
 
 
@@ -161,19 +134,12 @@ class Layout extends React.Component {
                     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@500;700&display=swap" rel="stylesheet" />
                     <link  href="../assets/fonts/fontawesome/css/all.css" rel="stylesheet" />
                     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-
-
                 </Head>
-                <div>
 
-                    <Header/>
+                <div>
                     <main data-aos="fade-in" data-aos-duration="1500">  
-                     
                     {this.props.children}
                     </main>
-                    <Features/>
-                    <Cta/>
-                    <Footer/>
                 </div>
                
                 <script src="../assets/js/jquery-1.12.4.min.js"></script>
@@ -195,4 +161,4 @@ class Layout extends React.Component {
     }
 }
 
-export default Layout
+export default Mainintro
