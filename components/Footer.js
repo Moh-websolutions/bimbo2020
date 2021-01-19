@@ -1,11 +1,10 @@
-import Link from 'next/link'
-
-{/* get the dyear */}
-const today = new Date();
-
+import Link from 'next/link';
+import Image from 'next/image';
 import useTranslation from 'next-translate/useTranslation';
 import { useRouter} from 'next/router';
 
+{/* get the dyear */}
+const today = new Date();
  
 const Footer = ({props}) => {
 
@@ -20,7 +19,7 @@ const Footer = ({props}) => {
                         <div className="col-lg-5 col-sm-8">
                              <div className="single-footer-caption mb-30">
                                   <div className="footer-logo">
-                                     <a href="index.html"><img src="/assets/img/logo.svg" width="250" alt="Bimbo Daycare Logo" /></a>
+                                     <Link href="/"><a><Image src="/assets/img/logo.svg" width={250} height={108} alt={t('common:meta-title')} /></a></Link>
                                  </div>
                                  <div className="footer-tittle">
                                      <div className="footer-pera">
